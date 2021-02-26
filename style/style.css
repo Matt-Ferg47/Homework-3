@@ -1,0 +1,80 @@
+body {
+    margin: 0px 0px 8px;
+    background-color: #b5b5b5;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-bottom: 8px solid #61249d;
+    margin-bottom: 5px;
+    width: 100%;
+    height: fit-content;
+}
+
+.navBar div {
+    display: flex;
+    height: 50px;
+}
+
+.navBar img {
+    margin: 0px 10px;
+}
+
+.navBar b {
+    font-size: 50px;
+}
+
+.navBar nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navBar a {
+    padding: 8px;
+    border-radius: 10px;
+    margin: 4.5px;
+    background: #d0a6fa;
+    border: 3px solid #61249d;
+}
+
+.aboutMe {
+    display: grid;
+    grid-template-areas: 
+    'Profile Name'
+    'Profile Title';
+    justify-content: center;
+    background-color: #b5b5b5;
+}
+
+.aboutMe img {
+    grid-area: Profile;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 10px;
+    border: 5px solid black;
+    background-color: whitesmoke;
+}
+
+.aboutMe h1 {
+    grid-area: Name;
+    margin-bottom: 2.5px;
+    padding-top: 100%;
+    height: 10%;
+}
+
+.aboutMe h2 {
+    grid-area: Title;
+    margin-top: 2.5px;
+    height: 100%;
+}
+
+.aboutMe button {
+    grid-area: Portfolio;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+}
